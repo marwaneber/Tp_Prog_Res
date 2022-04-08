@@ -27,7 +27,7 @@ public class ServeurJeu extends Thread {
     public void run() {
 
         try {
-            ServerSocket serverSocket = new ServerSocket(1231);
+            ServerSocket serverSocket = new ServerSocket(1232);
             nombreSecret = new Random().nextInt(1000);
             System.out.println("Le serveur a choisi son secret : "+nombreSecret);
 

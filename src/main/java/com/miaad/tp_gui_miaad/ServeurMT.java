@@ -21,7 +21,7 @@ public class ServeurMT extends Thread {
     @Override
     public void run() {
         try {
-            ServerSocket serverSocket = new ServerSocket(1230);
+            ServerSocket serverSocket = new ServerSocket(1239);
 
             boolean isActive = true;
             while(isActive) {
